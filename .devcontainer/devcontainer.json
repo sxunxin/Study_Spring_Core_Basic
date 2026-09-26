@@ -1,0 +1,22 @@
+{
+  "name": "Spring Boot Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-gradle",
+        "k--kato.intellij-idea-keybindings",
+        "aaron-bond.better-comments",
+        "compassak.intellij-idea-new-ui"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "java.saveActions.organizeImports": true,
+        "workbench.colorTheme": "IntelliJ IDEA New UI Dark"
+      }
+    }
+  },
+  "postCreateCommand": "echo '개발 환경 준비 완료'"
+}
