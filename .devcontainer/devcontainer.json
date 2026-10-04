@@ -13,7 +13,10 @@
       ],
       "settings": {
         "editor.formatOnSave": true,
-        "java.saveActions.organizeImports": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": "explicit"
+        },
+        "java.configuration.updateBuildConfiguration": "automatic",
         "workbench.colorTheme": "IntelliJ IDEA New UI Dark"
       }
     }
