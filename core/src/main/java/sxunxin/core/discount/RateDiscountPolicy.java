@@ -1,8 +1,11 @@
 package sxunxin.core.discount;
 
+import org.springframework.stereotype.Component;
+
 import sxunxin.core.member.Grade;
 import sxunxin.core.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;
