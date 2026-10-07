@@ -9,7 +9,8 @@
         "vscjava.vscode-gradle",
         "k--kato.intellij-idea-keybindings",
         "aaron-bond.better-comments",
-        "compassak.intellij-idea-new-ui"
+        "compassak.intellij-idea-new-ui",
+        "GabrieBB.vscode-lombok"
       ],
       "settings": {
         "editor.formatOnSave": true,
