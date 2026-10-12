@@ -19,8 +19,17 @@
 - 빈 생명주기 콜백 (`@PostConstruct`, `@PreDestroy`)
 - 빈 스코프 (싱글톤, 프로토타입, 웹 스코프)
 
+## 실행 방법
+
+```bash
+./gradlew test
+```
+
+- 테스트: 스프링 컨테이너와 빈 동작은 JUnit 테스트 코드로 확인
+
 ## 개발 환경
 - Java 17
 - Spring Boot 4.1.1
 - Gradle (io.spring.dependency-management 1.1.7)
+- Lombok
 - GitHub Codespaces (VS Code)
